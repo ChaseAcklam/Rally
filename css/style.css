@@ -19,6 +19,7 @@ a {
 
 /*-- Body css ---------------------------------------------------------------*/
 .headsection {
+  position: fixed;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
