@@ -3,7 +3,7 @@ html {
   margin: 0;
   padding: 0;
   font-size: 16px;
-font-family: 'Lato', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 body {
@@ -44,260 +44,126 @@ a {
   height: 8rem;
 }
 
-.transition {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  width: 100%;
-  height: 9rem;
-  background-color: black;
-}
-
-.mission {
-  background-color: black;
-  padding-top: 5rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  color: white;
-  font-size: 1.8rem;
-  font-weight: 300;
-}
-
 .logo img {
   width: 100%;
 }
+/*-- Body ---------------------------------------------------------------*/
 
-.background {
+.bodyhome {
   display: flex;
   justify-content: center;
-  width: 100%;
-  height: 75rem;
-  background-image: url("https://app.salesdrip.com/users/myteam45974/Media33.jpg");
-  background-attachment: fixed;
+  align-items: center;
+  flex-direction: column;
+  height: 50rem;
   background-color: black;
-  background-size: cover;
-  background-position: center top;
+  width: 100%;
+  background-image: url("https://app.salesdrip.com/users/myteam45974/Media108.jpg");
+  background-size: contain;
   background-repeat: no-repeat;
-  margin: 0px;
-  overflow-x: hidden;
+  background-position: center;
 }
 
-.barred {
-  width: 100%;
-  height: .3rem;
-  background-color: rgb(226, 38, 63);
-}
-.barwhite {
-  width: 100%;
-  height: 6rem;
-  background-color: white;
-}
-.barblue {
-  width: 100%;
-  height: 6rem;
-  background-color: rgb(39, 109, 215);
-}
-
-.abouthome {
-  width: 100%;
-  height: 25rem;
-  background-color: black;
-
-}
-
-.caption {
-  font-family: 'Lato', sans-serif;
+.upperhome {
   margin-top: 8rem;
-  margin-right: 28.5rem;
-  font-size: 2rem;
-  text-transform: uppercase;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
 }
 
-.bannerBL {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  height: 5rem;
-  background-image: url("https://app.salesdrip.com/users/myteam45974/Media8.jpg");
-  background-attachment: fixed;
-  background-color: black;
-  background-size: cover;
-  background-position: center top;
-  background-repeat: no-repeat;
-  margin: 0px;
-  overflow-x: hidden;
-}
-.section-one {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  height: 15rem;
-  background-image: url("https://app.salesdrip.com/users/myteam45974/Media30.jpg");
-  background-attachment: fixed;
-  background-color: black;
-  background-size: cover;
-  background-position: center top;
-  background-repeat: no-repeat;
-  margin: 0px;
-  overflow-x: hidden;
-}
-.section-two {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  height: 9rem;
-  background-image: url("https://app.salesdrip.com/users/myteam45974/Media29.jpg");
-  background-attachment: fixed;
-  background-color: black;
-  background-size: cover;
-  background-position: center top;
-  background-repeat: no-repeat;
-  margin: 0px;
-  overflow-x: hidden;
-}
-
-.section-three {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  height: 60rem;
-  background-image: url("https://app.salesdrip.com/users/myteam45974/Media31.jpg");
-  background-attachment: fixed;
-  background-color: black;
-  background-size: cover;
-  background-position: center top;
-  background-repeat: no-repeat;
-  margin: 0px;
-  overflow-x: hidden;
-}
-
-.complogo {
+.lowerhome {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
 }
 
-
-.complogo img {
-  width: 80%;
-}
-
-.bannerinfo {
-  padding-top: 3rem;
-  background-color: black;
-  display: flex;
-  justify-content: center;
-  width: 100%;
+.intro {
+  font-size: 3rem;
   color: white;
-  height: 5rem;
+  margin-bottom: 5rem;
+}
+
+.intro img {
+  margin-left: 1rem;
+  width: 3rem;
+}
+
+.introcaption {
+  font-family: 'Lato', sans-serif;
   font-size: 2rem;
 }
 
-/*---------------------------------- Scrolling Banner CSS -----------------------------*/
-.scrollingbanner {
+.spacer {
+  width: 50%;
+}
+
+.testbox {
+  cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
-    background-image: url("https://app.salesdrip.com/users/myteam45974/Media23.jpg");
-    height: 8rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  text-shadow: 5px 5px 8px rgba(255, 255, 255, 0.2);
+  background-color: black;
+  border: 1px solid white;
+  width: 20rem;
+  height: 8rem;
+  border-radius: 2px;
+  margin-top: 1.5rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  transition: all 400ms ease;
+  box-shadow: 5px 5px 15px black;
 }
 
-.photobanner {
+.testbox:hover{
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  background-color: rgb(39, 109, 245);
+}
 
+.section_one {
   display: flex;
   justify-content: center;
- height: 8rem;
- width: 5900px;
- margin-top: 3rem;
- margin-left: 5900px;
-}
-
-.divimg {
-  margin: 0px 2em;
-}
-
-.photobanner img {
-  width: 250px;
-  height: 80px;
+  align-items: center;
+  width: 100%;
+  background-color: black;
+  height: 60rem;
+  background-image: url("https://app.salesdrip.com/users/myteam45974/Media112.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-attachment: fixed;
   overflow-x: hidden;
 }
 
-.whitebanner {
-  position: absolute;
-  width: 5000px;
-  height: 600px;
-  background-color: white;
-  left: 100%;
+.section_two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: black;
+  height: 60rem;
+  background-image: url("https://app.salesdrip.com/users/myteam45974/Media113.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  overflow-x: hidden;
 }
 
 
-/*keyframe animations*/
-.first {
- -webkit-animation: bannermove 60s linear infinite;
-    -moz-animation: bannermove 60s linear infinite;
-     -ms-animation: bannermove 60s linear infinite;
-      -o-animation: bannermove 60s linear infinite;
-         animation: bannermove 60s linear infinite;
-}
+/*-- span ---------------------------------------------------------------*/
 
-@keyframes "bannermove" {
- 0% {
-    margin-left: 0px;
- }
- 100% {
-    margin-left: -11475px;
- }
-
-}
-
-@-moz-keyframes bannermove {
- 0% {
-   margin-left: 0px;
- }
- 100% {
-   margin-left: -11475px;
- }
-
-}
-
-@-webkit-keyframes "bannermove" {
- 0% {
-   margin-left: 0px;
- }
- 100% {
-   margin-left: -11475px;
- }
-
-}
-
-@-ms-keyframes "bannermove" {
- 0% {
-   margin-left: 0px;
- }
- 100% {
-   margin-left: -11475px;
- }
-
-}
-
-@-o-keyframes "bannermove" {
- 0% {
-   margin-left: 0px;
- }
- 100% {
-   margin-left: -11475px;
- }
-
-}
-
-
-/*-- Span ---------------------------------------------------------------*/
-
-.title {
-  font-size: 4rem;
+.larger {
+  margin-left: 1rem;
+  margin-top: 1rem;
+  font-size: 5rem;
+  font-weight: bold;
 }
 
 .red {
@@ -306,9 +172,13 @@ a {
 
 .blue {
   color: rgb(39, 109, 215);
-  margin-right: .5rem;
 }
 
+.lato {
+  font-family: 'Lato', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
 
 /*-- Navigation ---------------------------------------------------------------*/
 
